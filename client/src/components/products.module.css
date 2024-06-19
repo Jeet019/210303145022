@@ -1,0 +1,20 @@
+
+
+:root {
+    /* Used For Nav. background-color */
+    --racinggreen: #12372D;
+    /* Used as a background color in body content */
+    --cardingreen: #12372A;
+    /* Used as button, card background-color */
+    --feldgrau: #436850;
+    /* Used As a Text-color */
+    --whitenectar: #FBFADA;
+}
+
+.productsgrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 24px 32px;
+    justify-content: center;
+}

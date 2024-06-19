@@ -1,0 +1,58 @@
+
+
+:root {
+    /* Used For Nav. background-color */
+    --racinggreen: #12372D;
+    /* Used as a background color in body content */
+    --cardingreen: #12372A;
+    /* Used as button, card background-color */
+    --feldgrau: #436850;
+    /* Used As a Text-color */
+    --whitenectar: #FBFADA;
+}
+
+.productcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--whitenectar);
+    max-width: 250px;
+    max-height: 400px;
+    padding: 12px;
+    border-radius: 24px;
+    color: var(--racinggreen);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.productcard:hover{
+    transform: scale(1.05);
+}
+
+.productcard h4 {
+    opacity: 60%;
+}
+
+
+
+
+
+.productcard span {
+    display: flex;
+    align-items: baseline;
+}
+
+.productcard button {
+    width: 100%;
+    padding: 4px;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--feldgrau);
+    color: var(--whitenectar);
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.productcard button:hover {
+    opacity: 70%;
+}
